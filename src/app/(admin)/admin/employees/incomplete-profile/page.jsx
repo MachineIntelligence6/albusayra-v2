@@ -11,7 +11,7 @@ import { usePathname } from "next/navigation";
 import { updateSuccess } from "@/redux/reducers/campaign/campaignSlice";
 import { updateEmployeeSuccess } from "@/redux/reducers/applicants/applicantSlice";
 import { updateSuccessBank } from "@/redux/reducers/dataBank/dataBankSlice";
-import EmployeeTableWrapper from "@/components/employees/incomplete-form/Table";
+import EmployeeTableWrapper from "@/components/employees/incomplete-form/table";
 
 const Page = () => {
   const dispatch = useDispatch();
