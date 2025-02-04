@@ -1,0 +1,14 @@
+.masonry-grid {
+    display: flex;
+    margin-left: -16px; /* Adjust to match columnGap */
+    width: 100%;
+  }
+  
+  .masonry-grid-column {
+    padding-left: 16px; /* Adjust to match columnGap */
+    background-clip: padding-box;
+  }
+  
+  /* .masonry-grid-item {
+  } */
+  
