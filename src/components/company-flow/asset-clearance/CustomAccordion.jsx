@@ -10,7 +10,7 @@ import {
   Typography,
 } from "@mui/material";
 import CustomTable from "@/components/shared-components/Table-components/CustomTable";
-import Scrollbars from "react-custom-scrollbars";
+import Scrollbars from "react-custom-scrollbars-2";
 
 export default function CustomizedAccordions({ data, column, items, title }) {
   const [expanded, setExpanded] = useState(false);

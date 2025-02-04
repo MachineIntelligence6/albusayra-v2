@@ -7,7 +7,7 @@ import {
   Typography,
 } from "@mui/material";
 import React, { useState } from "react";
-import Scrollbars from "react-custom-scrollbars";
+import Scrollbars from "react-custom-scrollbars-2";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const AssetsAccordion = ({ data, column, items, title }) => {

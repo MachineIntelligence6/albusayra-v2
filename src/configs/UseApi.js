@@ -21,7 +21,7 @@ const userString = JSON.parse(
   typeof window !== "undefined" &&
     window.localStorage.getItem(authConfigs?.userData)
 );
-export const UserData = userString ? JSON.parse(userString?.JsonString) : "";
+export const UserData = userString?.JsonString ? JSON.parse(userString?.JsonString) : "";
 
 // console.log("userToken", userToken);
 
