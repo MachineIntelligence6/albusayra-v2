@@ -1,4 +1,4 @@
-import CampaignsWrapper from "@/components/Campaigns/index";
+import CampaignsWrapper from "@/components/campaigns";
 import TableExportRow from "@/components/shared-components/Table-components/TableExportRow";
 import TableFilters from "@/components/shared-components/Table-components/TableFilters";
 import { Avatar, Box, Typography } from "@mui/material";
