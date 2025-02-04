@@ -1,5 +1,5 @@
+import AuthLayout from "@/layouts/AuthLayout";
 import "../globals.css";
-import AuthLayout from "@/Layouts/AuthLayout";
 
 export const metadata = {
   title: "Al-Busayra",

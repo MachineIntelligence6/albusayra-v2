@@ -1,4 +1,4 @@
-import CompanyLayout from "@/Layouts/CompanyLayout";
+import CompanyLayout from "@/layouts/CompanyLayout";
 
 export const metadata = {
   title: "Al-Busayra",

@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 
 const RegisterUser = dynamic(
-  () => import("@/components/Auth-components/registerUser"),
+  () => import("@/components/auth-components/registerUser"),
   { ssr: false }
 );
 
