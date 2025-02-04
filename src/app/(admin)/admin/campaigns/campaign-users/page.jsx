@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Box, Divider } from "@mui/material";
 import DynamicBreadcrumb from "@/components/shared-components/BreadCrumb";
-import CampaignsWrapper from "@/components/Campaigns";
+import CampaignsWrapper from "@/components/campaigns";
 
 const Page = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

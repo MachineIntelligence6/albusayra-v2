@@ -10,11 +10,6 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import { Separator } from "@/components/ui/separator";
-import CompanyInfo from "../../../Components/dashboardComponents/modalComponents/CompanyInfo";
-import ContactInfo from "../../../Components/dashboardComponents/modalComponents/ContactInfo";
-import Locations from "../../../Components/dashboardComponents/modalComponents/Locations";
-import Listings from "../../../Components/dashboardComponents/modalComponents/Listings";
-import CustomBreadcrumb from "@/app/Components/sharedComponents/BreadCrum/page";
 import {
   createCompany,
   getCompanyByStatus,
@@ -25,6 +20,11 @@ import { UserData } from "@/configs/UseApi";
 import EmptyScreenView from "@/components/shared-components/EmptyScreenView";
 import { updateSuccess } from "@/redux/reducers/companies/companySlice";
 import Loader from "@/utils/reusable-functions/Loader";
+import CustomBreadcrumb from "@/app/components/sharedComponents/BreadCrum/page";
+import ContactInfo from "@/app/components/dashboardComponents/modalComponents/ContactInfo";
+import Locations from "@/app/components/dashboardComponents/modalComponents/Locations";
+import CompanyInfo from "@/app/components/dashboardComponents/modalComponents/CompanyInfo";
+import Listings from "@/app/components/dashboardComponents/modalComponents/Listings";
 
 export default function Page() {
   const [tabs, setTabs] = useState("company");
