@@ -1,19 +1,14 @@
-import CampaignsWrapper from "@/components/Campaigns";
 import TableExportRow from "@/components/shared-components/Table-components/TableExportRow";
 import TableFilters from "@/components/shared-components/Table-components/TableFilters";
-import { Avatar, Box, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import React, { useMemo, useState } from "react";
 import CustomTable from "@/components/shared-components/Table-components/CustomTable";
 import TablePagination from "@/components/shared-components/Table-components/TablePagination";
 import Link from "next/link";
 import CustomAvatar from "@/components/shared-components/CustomAvatar";
-import CurrencyType from "@/components/shared-components/CurrencyType";
 import ActionMenu from "@/components/shared-components/ActionMenu";
 import { useRouter } from "next/navigation";
-import { DownloadIcon, PdfIcon } from "@/utils/Icons";
 import { allownceTableData } from "../../data";
-import CompanyHeader from "@/components/shared-components/CompanyHeader";
-import DescriptiveText from "@/components/shared-components/DescriptiveText";
 
 const filters = [
   { id: 1, filterName: "ID", placeholder: "e.g" },

@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import { Box } from "@mui/material";
-import CustomBreadcrumb from "@/app/Components/sharedComponents/BreadCrum/page";
 import { SearchForm } from "@/components/search-form";
 import FixedTable from "./table/FixedTable";
+import CustomBreadcrumb from "@/app/components/sharedComponents/BreadCrum/page";
 
 const Payroll = () => {
   return (

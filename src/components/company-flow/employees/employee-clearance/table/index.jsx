@@ -1,7 +1,6 @@
-import CampaignsWrapper from "@/components/Campaigns";
 import TableExportRow from "@/components/shared-components/Table-components/TableExportRow";
 import TableFilters from "@/components/shared-components/Table-components/TableFilters";
-import { Avatar, Box, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import React, { useMemo, useState } from "react";
 import { ClearanceTableData } from "../../data";
 import CustomTable from "@/components/shared-components/Table-components/CustomTable";
