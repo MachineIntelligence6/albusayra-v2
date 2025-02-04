@@ -1,4 +1,4 @@
-import RegistrationLayout from "@/Layouts/RegistrationLayout";
+import RegistrationLayout from "@/layouts/RegistrationLayout";
 
 export const metadata = {
   title: "Registration form",

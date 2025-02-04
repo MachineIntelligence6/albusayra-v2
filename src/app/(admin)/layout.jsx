@@ -1,4 +1,4 @@
-import AdminLayout from "@/Layouts/AdminLayout";
+import AdminLayout from "@/layouts/AdminLayout";
 import AdminProviders from "@/redux/AdminProvider";
 
 export const metadata = {

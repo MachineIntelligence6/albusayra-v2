@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 
 const ForgotPassword = dynamic(
-  () => import("@/components/Auth-components/ForgotPassword"),
+  () => import("@/components/auth-components/ForgotPassword"),
   { ssr: false }
 );
 
