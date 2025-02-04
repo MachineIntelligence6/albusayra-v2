@@ -33,11 +33,11 @@ import { usePathname } from "next/navigation";
 import { updateSuccess } from "@/redux/reducers/campaign/campaignSlice";
 import { updateEmployeeSuccess } from "@/redux/reducers/applicants/applicantSlice";
 import { updateSuccessBank } from "@/redux/reducers/dataBank/dataBankSlice";
-import EmployeeTableWrapper from "@/components/employees/incomplete-form/ApplicantsTableWrapper";
+import EmployeeTableWrapper from "@/components/employees/incomplete-form/index";
 
 const Page = () => {
   const dispatch = useDispatch();
-  const pathname = usePathname();
+  const pathname = usePathname(); 
 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
